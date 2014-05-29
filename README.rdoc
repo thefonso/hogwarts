@@ -43,4 +43,8 @@ Ok so now the database exist and the first page is displaying...the internal mec
 it's just a matter of getting them to do what we want at this point...HOW should the DB tables be related to each other? 
 What to do to my controllers to get the results I want in my views and data entered into my DB?
 
+I think I want to reconfigure the seeds.rb file and set each student to their default house...
+
 Once I get everything else working, I'm going after the hat.
+
+

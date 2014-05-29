@@ -3,6 +3,6 @@ class HousesController < ApplicationController
     @houses = House.all
   end
   def show
-    @houses = House.all(:joins => :students, :conditions => { :students => { :house_id => true }})
+    @houses = House.all(:joins => :students, :conditions => { :students => { :house_id => 1 }})
   end
 end

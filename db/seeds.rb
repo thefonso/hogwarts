@@ -9,17 +9,17 @@ House.delete_all
 Student.delete_all
 
 # http://harrypotter.wikia.com/wiki/Hogwarts_Houses
-House.create!(name: "Gryffendor")
-House.create!(name: "Slytherin")
-House.create!(name: "Hufflepuff")
-House.create!(name: "Ravenclaw")
+House.create!(house_name: "Gryffendor")
+House.create!(house_name: "Slytherin")
+House.create!(house_name: "Hufflepuff")
+House.create!(house_name: "Ravenclaw")
 
 puts "Houses created"
 
 # http://harrypotter.wikia.com/wiki/Category:Hogwarts_students
-Student.create!(name: "Harry Potter")
-Student.create!(name: "Hermione")
-Student.create!(name: "Ron")
-Student.create!(name: "Draco")
+Student.create!(name: "Harry Potter", house_id: 1)
+Student.create!(name: "Hermione", house_id: 1)
+Student.create!(name: "Ron", house_id: 1)
+Student.create!(name: "Draco", house_id: 2)
 
 puts "Students created."

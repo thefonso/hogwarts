@@ -1,6 +1,7 @@
-<% @house.name %>
+<% @houses.first.house_name %>
 <ul>
-<% @house.students.each |student| %>
-  <li><%= student.name %></li></li>
-</ul>
+<% @houses.first.students.each do |student| %>
+  <li><%= student.name %></li>
 <% end %>
+</ul>
+

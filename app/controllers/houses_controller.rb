@@ -4,6 +4,6 @@ class HousesController < ApplicationController
   end
   def show
     #TODO - grab param for house_id ->
-    @houses = House.all(:joins => :students, :conditions => { :students => { :house_id => 1 }})
+    @houses = House.all(:joins => :students, :conditions => { :students => { :house_id => [param] }})
   end
 end

@@ -47,4 +47,12 @@ I think I want to reconfigure the seeds.rb file and set each student to their de
 
 Once I get everything else working, I'm going after the hat.
 
+Alright time is up. So I needed to get the param in my houses controller so when the user clicks on each link it grabs the list of students in that house
+
+wanted to get rid of the display of the DB data on the welcome page
+
+and I think I would have started the hat with trying a (1..4).sample thing in ruby
+
+Ok this is as far as I got.
+
 

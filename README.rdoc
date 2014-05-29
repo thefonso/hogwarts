@@ -9,3 +9,38 @@ Correct all the errors so that this app runs properly.
 
 === Then
 Implement a sorting hat method to randomly assign new students to one of Hogwarts' four houses.
+
+=== How I'm thinking aka Plan of Attack
+
+Get the code.
+
+Are there any test in place?
+
+Can I install the app in general...the road to "rails s"...
+
+adjust the .gitignore file on my system
+
+create a .rvmrc file and create a custom gemset
+
+go bundle install
+
+So first I just wanted to see everything the student created initially and then what changes where made over time up to the NOTHING WORKS! part.
+
+I took a look at the git history and peeked at the lines of code changed...this gave me some idea of what the student was thinking...what she "wanted" to do.
+
+Sometimes you can see a good idea or an actually correct solution having been removed due to lack of confidence and or confusion.
+
+Typo hunting (HAHAHA), even more typo hunting.
+
+Next I thought about all the internal mechanisms of the app. MVC...is everyone talking to everyone as they should be? does the database exist? does it work?
+can I see it's contents in IRB?
+
+When I do rake routes what do I get?
+
+Wait...was the public/index.html file deleted?
+
+Ok so now the database exist and the first page is displaying...the internal mechanics are "connected" 
+it's just a matter of getting them to do what we want at this point...HOW should the DB tables be related to each other? 
+What to do to my controllers to get the results I want in my views and data entered into my DB?
+
+Then I'm going after the hat.
